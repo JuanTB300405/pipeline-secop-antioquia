@@ -2,7 +2,7 @@
 
 Proyecto Pipeline de datos — *De la fuente al tablero*
 Gestión de Datos Masivos G002 · Institución Universitaria Pascual Bravo · 2026-2
-Integrantes: *Juan Manuel Tejada Bustamante*, *Diego Alejandro Castillo Perez*, *Alejandra munera* · Grupo **[#]**
+Integrantes: *Juan Manuel Tejada Bustamante*, *Diego Alejandro Castillo Perez*, *Alejandra Munera* ·
 
 ---
 
