@@ -1,0 +1,5 @@
+$ kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic secop_contratos
+Topic: secop_contratos	TopicId: zMcMLQ6XSaG0rTT-vbFFHA	PartitionCount: 3	ReplicationFactor: 1	Configs: segment.bytes=1073741824
+	Topic: secop_contratos	Partition: 0	Leader: 1	Replicas: 1	Isr: 1
+	Topic: secop_contratos	Partition: 1	Leader: 1	Replicas: 1	Isr: 1
+	Topic: secop_contratos	Partition: 2	Leader: 1	Replicas: 1	Isr: 1

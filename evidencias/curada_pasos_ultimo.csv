@@ -1,0 +1,10 @@
+paso,filas_antes,filas_despues,descartadas,decision
+a. quitar JSON corruptos,1,1,0,Una línea que no es JSON válido no tiene datos recuperables.
+b. quitar registros sin id_registro,1,1,0,Sin id no se puede deduplicar ni rastrear el contrato.
+c. quitar duplicados por id_registro,1,1,0,"Se conserva la versión con ultima_actualizacion más reciente (si empata, la última ingesta)."
+d. normalizar formatos de texto,1,1,0,trim + un solo espacio; 'No definido'/'Sin Descripcion' -> nulo; categorías en formato Título.
+"e. corregir tipos (fechas, números)",1,1,0,"Texto -> timestamp/date/decimal(20,2). No numéricos -> nulo (0 en valor_del_contrato)."
+f1. quitar sin fecha_de_firma,1,1,0,Es la columna de tiempo del análisis y de la marca de agua.
+f2. quitar fecha_de_firma fuera de rango,1,1,0,SECOP II existe desde 2015; una fecha futura es un error.
+f3. quitar valor_del_contrato negativo,1,1,0,Un contrato no puede valer menos de cero. El valor NULO se conserva (imputar 0 bajaría los promedios).
+g. unir con curada existente + dedup,4022,4021,1,Meses afectados: 1. Un contrato ya curado se reemplaza por su versión más reciente.

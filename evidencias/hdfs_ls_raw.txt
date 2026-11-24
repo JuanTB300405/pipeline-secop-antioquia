@@ -1,0 +1,9 @@
+drwxr-xr-x   - root supergroup          0 2026-11-24 21:48 /datalake/raw/datos.gov.co
+drwxr-xr-x   - root supergroup          0 2026-11-24 21:48 /datalake/raw/datos.gov.co/secop_contratos
+drwxr-xr-x   - root supergroup          0 2026-11-24 21:49 /datalake/raw/datos.gov.co/secop_contratos/fecha_ingesta=2026-11-24
+-rw-r--r--   1 root supergroup   16356895 2026-11-24 21:48 /datalake/raw/datos.gov.co/secop_contratos/fecha_ingesta=2026-11-24/lote_20261124T214850_0001_49e5f0.jsonl
+-rw-r--r--   1 root supergroup   16479792 2026-11-24 21:48 /datalake/raw/datos.gov.co/secop_contratos/fecha_ingesta=2026-11-24/lote_20261124T214853_0002_515246.jsonl
+-rw-r--r--   1 root supergroup   16510872 2026-11-24 21:48 /datalake/raw/datos.gov.co/secop_contratos/fecha_ingesta=2026-11-24/lote_20261124T214855_0003_8d9f30.jsonl
+-rw-r--r--   1 root supergroup   16482206 2026-11-24 21:48 /datalake/raw/datos.gov.co/secop_contratos/fecha_ingesta=2026-11-24/lote_20261124T214857_0004_878f8e.jsonl
+-rw-r--r--   1 root supergroup   16333367 2026-11-24 21:49 /datalake/raw/datos.gov.co/secop_contratos/fecha_ingesta=2026-11-24/lote_20261124T214859_0005_15ad4d.jsonl
+-rw-r--r--   1 root supergroup    9715526 2026-11-24 21:49 /datalake/raw/datos.gov.co/secop_contratos/fecha_ingesta=2026-11-24/lote_20261124T214902_0006_dee7ed.jsonl

@@ -1,0 +1,7 @@
+# Se instalan automáticamente en la primera celda del notebook (Google Colab)
+pyspark>=3.5,<3.6
+kafka-python>=2.0.3
+requests>=2.31
+plotly>=5.20
+pandas>=2.0
+# Además: Java 11/17 (apt), Hadoop 3.3.6 y Kafka 3.7.0 (binarios de Apache, descargados por el notebook)

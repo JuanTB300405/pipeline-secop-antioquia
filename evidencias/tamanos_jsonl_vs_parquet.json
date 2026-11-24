@@ -1,0 +1,9 @@
+{
+  "fecha": "2026-11-24T22:06:56+00:00",
+  "raw_jsonl_mb": 91.88,
+  "curada_parquet_mb": 9.35,
+  "reduccion_pct": 89.8,
+  "filas_curada_total": 55963,
+  "particiones_anio_mes": 9,
+  "ids_repetidos_en_toda_la_curada": 0
+}

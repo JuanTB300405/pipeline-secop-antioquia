@@ -1,0 +1,4 @@
+etiqueta,fecha,mensajes_leidos,microlotes_con_datos,ventanas_antes,ventanas_despues,contratos_antes,contratos_despues
+streaming_corrida_1,2026-11-24T22:01:54+00:00,55963,2,0,252,0,55406
+streaming_reinicio,2026-11-24T22:02:46+00:00,0,0,252,252,55406,55406
+corrida_2,2026-11-24T22:07:37+00:00,1,1,252,252,55406,55406

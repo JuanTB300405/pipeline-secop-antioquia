@@ -1,0 +1,15 @@
+{
+  "fecha": "2026-11-24T22:06:39+00:00",
+  "grupo": "secop-hdfs-writer",
+  "mensajes_consumidos": 1,
+  "mensajes_por_particion": {
+    "2": 1
+  },
+  "lotes": 1,
+  "archivos_hdfs": [
+    {
+      "ruta": "/datalake/raw/datos.gov.co/secop_contratos/fecha_ingesta=2026-11-24/lote_20261124T220625_0001_35809e.jsonl",
+      "mensajes": 1
+    }
+  ]
+}

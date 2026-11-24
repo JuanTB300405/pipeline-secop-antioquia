@@ -1,0 +1,26 @@
+{
+  "run_id": "20261124T220618_a554d1",
+  "fuente": "datos.gov.co",
+  "dataset": "jbjy-vk9h",
+  "url": "https://www.datos.gov.co/resource/jbjy-vk9h.json",
+  "parametros": {
+    "$select": "id_contrato,referencia_del_contrato,proceso_de_compra,nombre_entidad,nit_entidad,codigo_entidad,departamento,ciudad,orden,sector,rama,entidad_centralizada,estado_contrato,codigo_de_categoria_principal,tipo_de_contrato,modalidad_de_contratacion,justificacion_modalidad_de,fecha_de_firma,fecha_de_inicio_del_contrato,fecha_de_fin_del_contrato,tipodocproveedor,codigo_proveedor,es_pyme,origen_de_los_recursos,destino_gasto,valor_del_contrato,valor_facturado,valor_pagado,dias_adicionados,duraci_n_del_contrato,objeto_del_contrato,ultima_actualizacion",
+    "$where": "departamento = 'Antioquia' AND fecha_de_firma >= '2026-11-22T09:06:35.779' AND fecha_de_firma <= '2026-11-24T23:59:59.999'",
+    "$order": "fecha_de_firma ASC, id_contrato ASC",
+    "$limit": 5000
+  },
+  "paginacion": {
+    "tipo": "$limit/$offset",
+    "tamano_pagina": 5000,
+    "paginas": 1
+  },
+  "conteo_registros": 1,
+  "registros_sin_id": 0,
+  "reintentos": 0,
+  "archivo": "data/raw/datos.gov.co/secop_contratos/fecha_ingesta=2026-11-24/part-20261124T220618_a554d1.jsonl",
+  "fecha_ingesta": "2026-11-24T22:06:18+00:00",
+  "watermark_anterior": "2026-11-22T09:06:35.779",
+  "watermark_nuevo": "2026-11-22T09:06:35.779",
+  "duracion_segundos": 2.3,
+  "estado": "ok"
+}

@@ -1,0 +1,4 @@
+$ kafka-get-offsets.sh --bootstrap-server localhost:9092 --topic secop_contratos
+secop_contratos:0:18752
+secop_contratos:1:18611
+secop_contratos:2:18601

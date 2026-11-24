@@ -1,0 +1,5 @@
+$ kafka-consumer-groups.sh --bootstrap-server localhost:9092 --describe --group secop-hdfs-writer
+GROUP             TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+secop-hdfs-writer secop_contratos 0          18752           18752           0               -               -               -
+secop-hdfs-writer secop_contratos 1          18611           18611           0               -               -               -
+secop-hdfs-writer secop_contratos 2          18601           18601           0               -               -               -

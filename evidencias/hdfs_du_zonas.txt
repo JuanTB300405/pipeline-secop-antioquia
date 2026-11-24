@@ -1,0 +1,3 @@
+$ hdfs dfs -du -s -h /datalake/raw /datalake/curada
+87.6 M  87.6 M  /datalake/raw
+8.9 M   8.9 M   /datalake/curada

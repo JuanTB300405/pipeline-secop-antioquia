@@ -1,0 +1,10 @@
+{
+  "data/raw/datos.gov.co/secop_contratos/fecha_ingesta=2026-11-24/part-20261124T214438_4a6257.jsonl": {
+    "mensajes": 55963,
+    "publicado": "2026-11-24T21:48:30+00:00"
+  },
+  "data/raw/datos.gov.co/secop_contratos/fecha_ingesta=2026-11-24/part-20261124T220618_a554d1.jsonl": {
+    "mensajes": 1,
+    "publicado": "2026-11-24T22:06:20+00:00"
+  }
+}

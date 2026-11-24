@@ -1,0 +1,9 @@
+{
+  "fecha": "2026-11-24T22:06:20+00:00",
+  "topico": "secop_contratos",
+  "particiones_topico": 3,
+  "mensajes_publicados": 1,
+  "mensajes_por_particion": {
+    "2": 1
+  }
+}

@@ -1,0 +1,3 @@
+etiqueta,fecha,raw_local_lineas,raw_hdfs_registros,curada_filas,curada_ids_distintos,servicio_contratos,streaming_contratos
+corrida_1,2026-11-24T22:06:14+00:00,55963,55963,55963,55963,55963,55406
+corrida_2,2026-11-24T22:07:45+00:00,55964,55964,55963,55963,55963,55406

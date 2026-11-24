@@ -1,0 +1,55 @@
+{
+  "run_id": "20261124T215922",
+  "fecha": "2026-11-24T22:00:04+00:00",
+  "registros_entrada_raw": 55963,
+  "registros_validados": 111931,
+  "registros_descartados": {
+    "total": 0,
+    "por_motivo": {}
+  },
+  "validaciones": [
+    {
+      "validacion": "conteo_mayor_que_cero",
+      "nivel": "CRITICA",
+      "ok": true,
+      "valor_observado": 111931
+    },
+    {
+      "validacion": "sin_nulos_en_columnas_clave (id, fecha_de_firma, anio_mes)",
+      "nivel": "CRITICA",
+      "ok": true,
+      "valor_observado": 0
+    },
+    {
+      "validacion": "id_registro_sin_repetidos",
+      "nivel": "CRITICA",
+      "ok": false,
+      "valor_observado": 55968
+    },
+    {
+      "validacion": "fecha_de_firma_en_rango [2015-01-01, hoy]",
+      "nivel": "CRITICA",
+      "ok": true,
+      "valor_observado": 0
+    },
+    {
+      "validacion": "valor_del_contrato_no_negativo",
+      "nivel": "CRITICA",
+      "ok": true,
+      "valor_observado": 0
+    },
+    {
+      "validacion": "valor_del_contrato_nulo_menor_5pct",
+      "nivel": "ADVERTENCIA",
+      "ok": true,
+      "valor_observado": 0.0
+    },
+    {
+      "validacion": "departamento_es_Antioquia",
+      "nivel": "ADVERTENCIA",
+      "ok": true,
+      "valor_observado": 0
+    }
+  ],
+  "estado": "FALLIDO"
+}
